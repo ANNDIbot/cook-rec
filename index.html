@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>长辈用餐灵感</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="home-screen" id="homeScreen">
+            <div class="title-bar">
+                <span class="back-arrow" style="visibility: hidden;">&lt;</span>
+                <span class="screen-title">用餐推荐</span>
+            </div>
+            <div class="menu-item" data-target="breakfast">
+                早餐
+            </div>
+            <div class="menu-item" data-target="mainCourse">
+                正餐<br>(午餐/晚餐)
+            </div>
+            <div class="menu-item" data-target="stapleFood">
+                主食
+            </div>
+        </div>
+
+        <div class="content-screen" id="breakfastScreen">
+            <div class="title-bar">
+                <span class="back-arrow" data-target="home">&lt;</span>
+                <span class="screen-title">早餐</span>
+            </div>
+            <div class="content-list">
+                <div class="content-card">
+                    <h3>燕麦南瓜粥</h3>
+                    <p>（燕麦30g+南瓜泥50g，低GI）</p>
+                    <p>无糖豆浆</p>
+                    <p>适量水果</p>
+                </div>
+                <div class="content-card">
+                    <h3>紫薯小米糊</h3>
+                    <p>（紫薯60g+小米20g，抗氧化）</p>
+                    <p>温牛奶</p>
+                    <p>适量水果</p>
+                </div>
+                <div class="content-card">
+                    <h3>粗粮糊</h3>
+                    <p>（一包，低GI）</p>
+                    <p>蛋白粉</p>
+                    <p>适量水果</p>
+                </div>
+                <div class="content-card">
+                    <h3>鸡蛋肉末羹</h3>
+                    <p>（两个鸡蛋，少量肉末）</p>
+                    <p>蔬果汁</p>
+                </div>
+                <div class="content-card">
+                    <h3>肉包或菜包</h3>
+                    <p>（一个）</p>
+                    <p>水煮蛋（全蛋+蛋白）</p>
+                    <p>蔬菜汁</p>
+                </div>
+                <div class="content-card">
+                    <h3>软烂面条</h3>
+                    <p>（小碗，加蔬菜和少量肉）</p>
+                    <p>蛋白粉</p>
+                    <p>适量水果</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="content-screen" id="mainCourseScreen">
+            <div class="title-bar">
+                <span class="back-arrow" data-target="home">&lt;</span>
+                <span class="screen-title">正餐</span>
+            </div>
+            <div class="content-list">
+                <div class="content-card">
+                    <h3>主菜：番茄炖牛腩</h3>
+                    <p>（炖至酥烂）</p>
+                    <h3>配菜：胡萝卜土豆泥</h3>
+                    <p>（胡萝卜+土豆蒸熟压泥）</p>
+                </div>
+                <div class="content-card">
+                    <h3>主菜：肉末蒸蛋</h3>
+                    <p>（蛋液里加1勺无糖豆浆蛋白质更高）</p>
+                    <h3>配菜：上汤苋菜</h3>
+                    <p>（可加皮蛋半颗提鲜）</p>
+                </div>
+                <div class="content-card">
+                    <h3>主菜：清蒸鲈鱼</h3>
+                    <p>（鱼肉弄碎）</p>
+                    <h3>配菜：冬瓜盅</h3>
+                    <p>（冬瓜挖心，填香菇丁+鸡肉末蒸烂）</p>
+                </div>
+                <div class="content-card">
+                    <h3>主菜：芋头蒸鸡肉</h3>
+                    <p>（尽量烂糊）</p>
+                    <h3>配菜：烂糊肉丝</h3>
+                    <p>（肉丝、白菜丝勾芡炒到烂糊）</p>
+                </div>
+                <div class="content-card">
+                    <h3>主菜：滑蛋虾仁</h3>
+                    <h3>配菜：清炒丝瓜</h3>
+                </div>
+                <div class="content-card">
+                    <h3>主菜：红烧鳕鱼块</h3>
+                    <h3>配菜：黑木耳炒山药片</h3>
+                </div>
+                <div class="content-card">
+                    <h3>主菜：香菇滑鸡片</h3>
+                    <p>（鸡胸肉切薄片+香菇片，滑炒或蒸至软嫩）</p>
+                    <h3>配菜：清炒西兰花泥</h3>
+                    <p>（西兰花煮软后捣成泥状或切细碎）</p>
+                </div>
+                <div class="content-card">
+                    <h3>主菜：鸭血粉丝汤</h3>
+                    <p>（粉丝和少量鸭血为主，不加鸭肠等高嘌呤内脏）</p>
+                    <h3>配菜：蒜蓉蒸南瓜</h3>
+                </div>
+                <div class="content-card">
+                    <h3>主菜：阿胶红枣炖排骨</h3>
+                    <p>（注意： 阿胶性滋腻，消化功能弱时少量食用）</p>
+                    <h3>配菜：清炒菠菜泥</h3>
+                    <p>（菠菜煮软后捣成泥状，富含铁和叶酸）</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="content-screen" id="stapleFoodScreen">
+            <div class="title-bar">
+                <span class="back-arrow" data-target="home">&lt;</span>
+                <span class="screen-title">主食</span>
+            </div>
+            <div class="content-list">
+                <div class="content-card">
+                    <h3>燕麦米饭</h3>
+                    <p>（燕麦+大米）</p>
+                </div>
+                <div class="content-card">
+                    <h3>芋头/山药饭</h3>
+                    <p>（山药/芋头+大米）</p>
+                </div>
+                <div class="content-card">
+                    <h3>小米南瓜粥</h3>
+                    <p>（小米+南瓜）</p>
+                </div>
+                <div class="content-card">
+                    <h3>红薯米饭</h3>
+                    <p>（红薯+大米）</p>
+                </div>
+                <div class="content-card">
+                    <h3>玉米羹</h3>
+                    <p>（玉米粒煮烂）</p>
+                </div>
+                <div class="content-card">
+                    <h3>紫薯馒头</h3>
+                    <p>（紫薯+馒头）</p>
+                </div>
+                <div class="content-card">
+                    <h3>八宝粥</h3>
+                    <p>（大米+小米+杂豆）</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
